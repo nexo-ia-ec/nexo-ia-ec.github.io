@@ -1,0 +1,13 @@
+{
+  "name": "nexo-ia-pruebas",
+  "private": true,
+  "description": "Pruebas automáticas del sitio de Nexo IA",
+  "scripts": {
+    "test": "node pruebas.test.js",
+    "validar-html": "html-validate ../index.html ../privacidad.html ../404.html"
+  },
+  "devDependencies": {
+    "html-validate": "^8.0.0",
+    "jsdom": "^24.0.0"
+  }
+}
